@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+BODY{
+	margin: 0 0;
+	padding: 0 0;
+	background-color: #000000;
+	height: 900px;
+}
+#wrapper{
+    width: 850px;
+    margin: 0 auto;
+}
+
+#header{
+    padding-top: 15px;
+    width: 817px;
+    height: 157px;
+    /*background-color: black;*/
+}
+
+#nav{
+    height: 44px;
+    width: 850px;
+    background-color: #1b1b1b;
+    border: 1px solid #52a040;
+    margin-bottom: 10px;
+}
+#nav ul{
+  font-family: Arial;
+  color: #705353;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+  float: left;
+}
+#nav li{
+  display: inline-block;
+  padding-left: 30px;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+}
+#nav li:hover{
+  opacity: 0.5;
+}
+
+#insideWrapper{
+    width: 817px;
+    height: inherit;
+}
+#sliderContainer{
+  width: 850px;
+  height: 200px;
+  border: 1px solid #27872c;
+  background-color: #402c2c;
+  float: left;
+  margin-bottom: 5px;
+}
+#sliderContainer img{
+  width: 850px;
+  border-bottom: 1px solid #319a1f;
+}
+
+#heading h1{
+  color: #7e8d09;
+  font-size: 12pt;
+  font-family: arial;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+#newsContainer{
+  width: 850px;
+  height: 1100px;
+  border: 1px solid #407c23;
+  background-color: #1b1b1b;
+  float: left;
+}
+#menu{
+  height: 50px;
+  width: 100%;
+
+}
+#menu ul{
+  font-family: Arial;
+  color: #319a1f;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+  float: left;
+}
+#menu li{
+  display: inline-block;
+  padding-left: 30px;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+}
+#menu li:hover{
+  opacity: 0.5;
+}
+.seperator{
+  background-image: url(../images/seperator.jpg);
+  background-repeat: repeat-x;
+  height: 2px;
+  width: 100%;
+}
+.news{
+  margin-top: 15px;
+}
+.date{
+  background-color: #110e0e;
+  border-radius: 1px;
+  color: #7a3230;
+  margin-left: 15px;
+  font-family: arial;
+  font-size:15px;
+  width: 820px;
+  text-align: center;
+}
+.newsContent{
+  margin-top: 5px;
+  padding-left: 15px;
+  font-family: arial;
+  color: #d3bc50;
+  font-size: 13px;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
