@@ -10,19 +10,7 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -47,7 +35,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-BODY{
+body{
 	margin: 0 0;
 	padding: 0 0;
 	background-color: #000000;
@@ -62,6 +50,7 @@ BODY{
     padding-top: 15px;
     width: 817px;
     height: 157px;
+    text-align:center;
     /*background-color: black;*/
 }
 
@@ -122,7 +111,7 @@ BODY{
 }
 #newsContainer{
   width: 850px;
-  height: 1100px;
+  height: 500px;
   border: 1px solid #407c23;
   background-color: #1b1b1b;
   float: left;
@@ -177,7 +166,6 @@ BODY{
   font-family: arial;
   color: #d3bc50;
   font-size: 13px;
-  font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
